@@ -1,9 +1,13 @@
 {
   "name": "comp229-assignment01-amin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -16,5 +20,22 @@
     "jquery": "^3.5.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "COMP229 - Assignment01 Express Portfolio (Amin 300968902)",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminp55/comp229-assignment01-amin.git"
+  },
+  "keywords": [
+    "website",
+    "node"
+  ],
+  "author": "Amin Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminp55/comp229-assignment01-amin/issues"
+  },
+  "homepage": "https://github.com/aminp55/comp229-assignment01-amin#readme"
 }
