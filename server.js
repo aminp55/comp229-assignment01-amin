@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-var app = require('./app');
-var debug = require('debug')('comp229-assignment01-amin:server');
+var app = require('./server/config/app.js');
+var debug = require('debug')('comp229_assignment01amin:server');
 var http = require('http');
 
 /**
